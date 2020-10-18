@@ -6,8 +6,7 @@
 
 [![](https://img.shields.io/twitter/follow/abhiprojectz.svg?style=social)](https://twitter.com/abhiprojectz)
 
-![](https://raw.githubusercontent.com/abhiprojectz/motionia/master/assest/keyframe-challenge-large.gif)
-
+<center> ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/gvfvsbai5g7yrjqu5jjq.png) </center>
 With motionia you can animate elements by just one line of code.
 
 > lightweight, simple fast & easiest to integrate.
