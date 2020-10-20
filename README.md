@@ -1,384 +1,218 @@
-# Motionia
 
-## Welcome 
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/3bfrcyaaf6vbbq913zyu.png)
+---
+<p align='center'> The  Ultimate & smart JS animation library! <br><a href="https://github.com/abhiprojectz/motionia/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/abhiprojectz/motionia?style=for-the-badge"></a>   <a href="https://github.com/abhiprojectz/motionia/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/abhiprojectz/motionia?style=for-the-badge"></a> </p>
 
-**Motionia** - a lightweight simplified on demand animation library.
-
+---
 [![](https://img.shields.io/twitter/follow/abhiprojectz.svg?style=social)](https://twitter.com/abhiprojectz)
 
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/gvfvsbai5g7yrjqu5jjq.png)
-With motionia you can animate elements by just one line of code.
+> Simple fast , flexible  & easy to integrate.
+> 
+No need to write page long CSS Keyframes that consumes a lot of time and no need to waste a lot on their customizations.
 
-> lightweight, simple fast & easiest to integrate.
+Just use motionia.js it contains 100+ pre-built animations with a tons of customizations.
 
-``` 
+No need of using any kind of **Scroll** library, motionia is independent => No dependencies.
 
-=> motionia("target", "anim");
+Alright, so explain me in 30 secs what it is actually?
 
+Wanna  save time? then just animate elements by  adding `data attributes`.
+
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/j4ym5lke7w6imat5h7fe.JPG)
+
+```html
+<div data-motionia='fadeIn'> hi!, i am a fading in text! :)
+ </div>
+```
+With a tons of customizations to elements such as delay , duration , repeat , easing , direction etc parameters.
+
+all by using `data attributes` to html parametric elements itself.
+
+Need to animate elements using js for some reasons?
+then just use like:
+
+```js
+var myAnim = new motionia() 
+// initialize motionia.js
+
+myAnim.mo({
+targets: '#div',
+anim: 'rollLeft'
+duration: '5s'
+})
+// targets can be any html parametric element and 
+// then customize according to your needs!
+// using simple JSON like structure.
 ```
 
 # Where to get?
 
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/qhgghdtuxxxtvl9axbrr.png)
+
 [Motionia on github](https://github.com/abhiprojectz/motionia)
 
 
+[Experiment with it here](https://anicode.in/motionia/try/)
 
-[Experiment with it here](https://abhiprojectz.github.io/motionia/)
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/j4ym5lke7w6imat5h7fe.JPG)
 
-# Examples & Demos
+# Examples 
 
 Visit my codepen for motionia.js examples and demos and to grasp easily what motionia can actually do.
 
-[Abhiprojectz on Codepen](https://codepen.io/abhiprojectz)
+ +  [Abhiprojectz on Codepen](https://codepen.io/abhiprojectz)
 
-[Motionia.js - animating the door](https://codepen.io/abhiprojectz/pen/BajyQPq)
+ + [Motionia.js - animating the door](https://codepen.io/abhiprojectz/pen/BajyQPq)
 
-[Animating backgrounds](https://codepen.io/abhiprojectz/pen/OJMPWbG)
+ + [Animating backgrounds](https://codepen.io/abhiprojectz/pen/OJMPWbG)
 
-[Animating lists](https://codepen.io/abhiprojectz/pen/KKVwoNp)
+  + [Animating lists](https://codepen.io/abhiprojectz/pen/KKVwoNp)
 
-[Animating Loaders](https://codepen.io/abhiprojectz/pen/MWKYVMo)
+ + [Animating Loaders](https://codepen.io/abhiprojectz/pen/MWKYVMo)
 
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/j4ym5lke7w6imat5h7fe.JPG)
 
-# Getting started
-
-![](https://raw.githubusercontent.com/abhiprojectz/motionia/master/assest/animations.gif)
-
-
-
+# Installations 
 
 Just add a script path of motionia via **JSDELIVR** into the head of your project
 
+```html
+<script src="https://cdn.jsdelivr.net/gh/abhiprojectz/motionia@latest/dist/motionia.js" defer></script>
 ```
-<script src="https://cdn.jsdelivr.net/gh/abhiprojectz/motionia@v1.0/dist/motionia.js" defer></script>
-```
+# Usage
+
+We have a svg with id as `mysvg` now we wanna animate it such that animations triggers when it appears in viewport.
 
 
-Use motionia in inline script as:
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/nrt1kdmskno8r8ajemu7.png)
 
-``` 
-
-=> motionia("target", "anim");
-
-```
-
-> Target can be any html element.
+add a rolling effect from left `rollleft`
 
 
-
-> Elements can be a ``` id ``` , ``` class ``` or ``` body,p etc ``` html parametric element.
-
-
-> anim refers to animation name!
-
-# Features
-
-There is a lot of potential in motionia just keep exploring it.
-
-## Animations lists
-
-There are 100+ builtin animations + capability to create a lot more..
-
-![](https://raw.githubusercontent.com/abhiprojectz/motionia/master/react-spring.gif)
-
-### Appear In 
-
-> Add ``` In ``` to make a appering anim.
-
-fadeIn
-
-rollIn
-
-slideIn
-
-slitIn
-
-bounceIn
-
-swirlIn
-
-rotateIn
-
-presentIn
-
-presIn
-
-parosIn
-
-flickerIn
-
-tiltIn
-
-swingIn
-
-and a lot more!
-
-### Disapper Out 
-
-> add ``` Out ``` to disappear a element
-
-fadeOut
-
-slideOut
-
-rollOut
-
-slitOut 
-
-shadowIn
-popIn
-puffIn
-blutIn
-expandIn
-explodeOut
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/j4ym5lke7w6imat5h7fe.JPG)
 
 
-etc 
+##  Set a delay of 5s 
 
-# Wanna customize ?
+This is just a small example.
 
-![](https://raw.githubusercontent.com/abhiprojectz/motionia/master/assest/loader-2.gif)
+The animation will be triggered as soon as the element appers inside the viewport.
 
-You can customize above anim easily without writing a long code all you need is just A **LINE!!**
+> Note: if you want to trigger element using js then refer the section below.
 
-## Make a element slide right by some amount
-
-> Use motionia("div", "slideX" , "100px");
-
-That's all!
-
+```html
+<div data-mationia='rollLeft' data-delay='5s'> rolling from
+ left </div>
 ```
 
-motionia("target", "slideY" , "100px");
+The supported animation property is a shorthand property which can be accessed for:
 
+animation-name
+animation-duration
+animation-timing-function
+animation-delay
+animation-iteration-count
+animation-direction
+animation-fill-mode
+animation-play-state
+
+Refer documentations for more details.
+
+## Sliding a element right by 200px
+
+> No keyframes straight forward text parameters.
+
+use anim name **slide** as `data-motionia='slide'` then specify amount that is `data-right='200px'` & over!
+
+```html
+<div data-motionia='slide' data-right='200px'>i slide by 200px right</div>
 ```
 
-# Customize intensity of a anim!
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/j4ym5lke7w6imat5h7fe.JPG)
 
-Some anim can be minimized or maximized in order to meet our requirements as sometimes we need to gain more **ATTENTION** of a user!
+# Using js syntax for advanced usage.
 
+You can also trigger animation inside a function like `onclick` , `ontouch` etc or maybe as a result of a function.
 
-> Just add **Min** or **Max** at the end of a anim!
+Pre-built anims , which uses simple syntax makes it easy to decorate our project easily & without any dependencies.
 
+First of all initialize `motionia.js`a
 
-## Create a vibrate anim for a element like a button
-
-use:
-
-```
-motionia("#btn","vibrateMax")
-motionia("#btn","vibrateMin")
+```js
+var myAnim = new motionia() 
+// initialize motionia.js
 ```
 
-### Following anims support min pr max feature.
+Now you can create a object and pass parameters in it to customize the anim.
 
-blink 
-vibrate
-bounce
-shake
-jelly
-wobble
+use `.mo` method to pass parameters 
 
-![](https://raw.githubusercontent.com/abhiprojectz/motionia/master/assest/unnamed%20(10).gif)
-
-ripple
-
-# Mixing 2 anims together!
-
-![](https://raw.githubusercontent.com/abhiprojectz/motionia/master/assest/unnamed%20(9).gif)
-
-
-
-Yeah, with motionia you can mix one anim to the other. its very simple just **mix anims** name which is one & first of a kind ,with each other and hola!
-
-Why to mix? Inorder to get a cool amazing animation no need to wrtie a page long **CSS KEYFRAMES** only 1,2 words name is **ENOUGH!**
-
-> To mix anim suppose make a element rotate and then scale!
-
-```
-motionia("target", "rotateScaleIn")
+```js
+myAnim.mo({
+targets: '#div',
+anim: 'rollLeft'
+duration: '5s'
+})
 ```
 
-This will first make the object rotate and then scale it.
+You can also **overrides** targets on every object no need to initialize motionia more than once.
 
-> Mixing is amazing!! & its **CONVERSE** is also possible, now  Make a object first scale and then rotate!
 
-```
-motionia("target", "scaleRotateIn")
-```
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/j4ym5lke7w6imat5h7fe.JPG)
 
-**In this way you can multipy the number of above all anims by just Double**
 
-Try out: ``` flipScaleIn ``` , ```flipScaleOut``` , ```slideRotate``` etc combinations!
+# Ideas
 
+Many other animation library doesn't provide us built animations but `motionia.js` do.
 
+Trigger it when elements visible in viewport or trigger on a click using easy JS setup.
 
-# Pre built awesome 3D anims.
+The `.mo({})` method quite works as a timeline feature.
 
-Suppose you wanna animate a object that similates anim of a door just like a door opens? **Imagine it** You can animate element by just its Name!
+So, keep going animating by a line.
 
-Visit this codepen demo.
+For brief explanation refer docs.
 
-[Animate a door easily](https://codepen.io/abhiprojectz/pen/BajyQPq)
 
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/j4ym5lke7w6imat5h7fe.JPG)
 
-![](https://raw.githubusercontent.com/abhiprojectz/motionia/master/assest/unnamed%20(7).gif)
 
+# Documentation
 
+grab the docs here: [docs of motionia](https://anicode.in/motionia/docs)
 
-## Animate a element as a door opens in **UP** , **DOWN** , **LEFT** , **RIGHT**
+# BONUS!
 
-Just add the directions parameters at the end of the anim name!
+Now comes the **MAIN** part!
 
+The best thing of motionia.js is **mixing up of anims**.
 
-![](https://raw.githubusercontent.com/abhiprojectz/motionia/master/assest/unnamed%20(6).gif)
+So , it totally depends on your creativity of how you mix the animations.
 
+To rotate & then make a element bigger in size use:
 
+**data-motionia='rotateScaleIn'** we just mixed the animations name.
 
-use:
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/j4ym5lke7w6imat5h7fe.JPG)
 
-```
-motionia("#target", "doorUp")
-motionia("#target", "doorDown")
-motionia("#target", "doorLeft")
-motionia("#target", "doorRight")
 
+# Features at a glance
 
-```
+ + 30+ base animations.
+ + Animation property customizations.
+ + Easy Scroll builtin animation triggering.
+ + Mixing Of animations increases the no. of built-in animations thus, makes it lightweight.
+ + JSON structure customization.
+ + NO dependencies 
+ + Tested on all major browsers.
 
-# Animate background of any element!
 
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/j4ym5lke7w6imat5h7fe.JPG)
 
-Animate background of any element by just using some basic parameters as direction parameters.
 
-That is just add direction to **Move** the background in that direction often usefull in making **Landscape** anims easily by just ONE LINE OF CODE!!
+# Contribute
 
-visit this codepen demo , in that **gradients background is taken**.
+This is very important do fork it right now and come up with your ideas!
 
-[Animating backgrounds](https://codepen.io/abhiprojectz/pen/OJMPWbG)
 
-use:
-
-```
-motionia("#target", "bgDown")
-motionia("#target", "bgUp")
-motionia("#target", "bgLeft")
-motionia("#target", "bgRight")
-```
-
-
-
-# Animating document background!
-
-![](https://raw.githubusercontent.com/abhiprojectz/motionia/master/assest/2d-video-game-bk-effect.3gif.gif)
-
-
-Wanna animate background , you can use all the above **BASE** anims and also can make their combos + too add appearing in or out depends upon you.
-
-Use:
-
-```
-motionia("body", "popZ")
-
-or 
-
-motionia("body", "scaleZ");
-
-```
-
-Wait....whats **Z** at the end this will animate body's transformation in z axis and can change upon your body's dimension automatically! 
-
-> Remember **Z** parameter only works in anims where transformation in z axis works , that is have its actual meaning as for those anims which it doesn't work then don't worry just change your base anim's name!
-
-# Animate color of a element quickly 
-
-You can pass your  favourite colors upto 3 to motionia's color base anim.
-
-use:
-
-```
-motionia("#target", "color", "red", "#000", "teal")
-
-```
-
-> Color will work in any typo that is hsl, hex , rgba , dex or predefined name etc.
-
-
-# Animate a rotating effects that fits your need.
-
-![](https://raw.githubusercontent.com/abhiprojectz/motionia/master/assest/svg_motion_trails_dribbble.gif)
-
-
-
-There is a prebuilt anim for rotate motion that is **rotateIn** or **rotateOut** also you may built more by mixing that is scaleRotateIn etc but to make it adjustable just **customize it**
-
-> Suppose you need turn a icon by 90 degrees
-
-> You may also use it for **fliping**
-
-use:
-
-```
-
-motionia("#icon", "rotate", "90deg")
-
-```
-
-Just specify the angle that 90deg, 100deg, etc.
-
-# Adding blur effects to anim itself!
-
-![](https://raw.githubusercontent.com/abhiprojectz/motionia/master/assest/MotionBlur_motionblur_example.gif)
-
-The above anim is created by mixing **bounceMin** + **Blur**
-
-Upto now we can add a blur effect to our elements using focusIn etc but what about adding this to **Anims** itself!
-
-> Just add **Blur** at the anims name.
-
-use:
-
-```
-
-motionia("#target", "scaleInBlur")
-
-or 
-
-motionia("#target", "rollInBlur")
-
-```
-
-
-
-
-## Up, Down , left & right parameters example
-
-Selecting above anims correctly for your need is a **Art** just master it & add customization accordingly.
-
-### Swinging a button with a id **#btn** 
-
-```
-motiona("#btn","swingUp")
-motionia("#btn","swingRight")
-
-```
-
-
-```
-
-// Animate a element to slide up by 10px
-
-motionia("#div","slideY","10px") 
-
-// px can be % em vh vw etc.
-
-```
-
-# The end 
-
-i'll keep updating motionia.
-
-![](https://raw.githubusercontent.com/abhiprojectz/motionia/master/assest/7SIR.gif)
-
- Don't forget to give motionia a **STAR** & a share thanks.
-
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/j4ym5lke7w6imat5h7fe.JPG)
