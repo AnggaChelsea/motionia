@@ -214,5 +214,8 @@ To rotate & then make a element bigger in size use:
 
 This is very important do fork it right now and come up with your ideas!
 
+[![Stargazers repo roster for @abhiprojectz/motionia](https://reporoster.com/stars/abhiprojectz/motionia)](https://github.com/abhiprojectz/motionia/stargazers)
+
+[![Forkers repo roster for @abhiprojectz/motionia](https://reporoster.com/forks/abhiprojectz/motionia)](https://github.com/abhiprojectz/motionia/network/members)
 
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/j4ym5lke7w6imat5h7fe.JPG)
