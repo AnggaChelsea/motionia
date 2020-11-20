@@ -7,8 +7,15 @@
 [![](https://img.shields.io/twitter/follow/abhiprojectz.svg?style=social)](https://twitter.com/abhiprojectz)
 
 > Simple fast , flexible  & easy to integrate.
-> 
-No need to write page long CSS Keyframes that consumes a lot of time and no need to waste a lot on their customizations.
+> No need to write page long CSS Keyframes that consumes a lot of time and no need to waste a lot on their customizations.
+
+# Give us your feedback
+
+[![](https://gitrate.herokuapp.com/happy?ref=abhiprojectz.motionia)](https://gitrate.herokuapp.com/happy/done?ref=abhiprojectz.motionia)
+
+[![](https://gitrate.herokuapp.com/unhappy?ref=abhiprojectz.motionia)](https://gitrate.herokuapp.com/unhappy/done?ref=abhiprojectz.motionia)
+
+> Created using [https://gitrate.herokuapp.com/](https://gitrate.herokuapp.com/) Gitrate tool 
 
 Just use motionia.js it contains 100+ pre-built animations with a tons of customizations.
 
